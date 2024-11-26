@@ -39,7 +39,6 @@ const postsSlice = createSlice({
             state.posts.items = [];
             state.posts.status = 'error';
         },
-        
         [fetchTags.pending]: (state) => {
             state.tags.items = [];
             state.tags.status = 'loading';
